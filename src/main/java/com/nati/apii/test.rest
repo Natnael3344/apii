@@ -1,0 +1,26 @@
+POST http://localhost:8080/locationweb/register
+@Content-Type: application/json
+
+  {
+    "email": "temesgen",
+    "password": "markos"
+  }
+
+%%%
+
+# Duration: 1440 ms
+# URL: http://localhost:8080/locationweb/register
+
+# HTTP/1.1 200
+
+@Content-Type: application/json
+@Transfer-Encoding: chunked
+@Date: Thu, 02 Jun 2022 21:59:50 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
+{
+  "id": 2,
+  "email": "temesgen",
+  "password": "markos"
+}
